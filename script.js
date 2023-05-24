@@ -22,9 +22,9 @@ onClickClose.value = testrun();
 menuButton.setAttribute('onclick', 'openMenu()');
 cancelButton.setAttribute('onclick', 'testrun()');
 
-// for (let i = 0; i < 3; i += 1) {
-//   mobileLinks[i].setAttribute('onclick', 'testrun()');
-// }
+for (let i = 0; i < 3; i += 1) {
+  mobileLinks[i].setAttribute('onclick', 'testrun()');
+}
 
 const workSection = {
   mobileTitle: 'MY RECENT WORK',
