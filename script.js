@@ -1,8 +1,8 @@
 const header = document.getElementById('header');
 const menu = document.getElementById('menu');
 const menuButton = document.getElementById('menuButton');
-// const cancelButton = document.getElementById('cancelButton');
-// const mobileLinks = document.getElementsByClassName('mobile_links');
+const cancelButton = document.getElementById('cancelButton');
+const mobileLinks = document.getElementsByClassName('mobile_links');
 const onClickOpen = document.createAttribute('onclick');
 const onClickClose = document.createAttribute('onclick');
 
@@ -20,7 +20,7 @@ onClickOpen.value = openMenu();
 onClickClose.value = testrun();
 
 menuButton.setAttribute('onclick', 'openMenu()');
-// cancelButton.setAttribute('onclick', 'testrun()');
+cancelButton.setAttribute('onclick', 'testrun()');
 
 // for (let i = 0; i < 3; i += 1) {
 //   mobileLinks[i].setAttribute('onclick', 'testrun()');
